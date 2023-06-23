@@ -1,0 +1,25 @@
+body {
+    background-image: linear-gradient(to right, #0000CF, #00004F);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: justify;
+}
+
+header {
+    background-color: aliceblue;
+    margin: 10px;
+    padding: 05px;
+    border-radius: 05px;
+}
+
+main {
+    background-color: aliceblue;
+    margin: 10px;
+    padding: 05px;
+    border-radius: 05px;
+}
+
+footer {
+    background-color: #5757b9a2;
+    color: white;
+    border-radius: 03px;
+}

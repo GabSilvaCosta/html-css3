@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Treinando pseudo-class</title>
+    <style>
+        body {
+            font-size: 1.3em;
+            background-color: aliceblue;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        div:hover {       /* Altera a cor da div quando passa o mouse por cima*/
+            color: red;
+        }
+        div > p { /* oculta p até que o mouse passe por cima da div */
+            display: none;
+        }
+
+        div:hover > p {   /* quando mouse passa em cima da div o conteudo da mesma aparece e é formatado */
+            display: block;
+            color: blue;
+            background-color: coral;
+        }
+    </style>
+</head>
+<body>
+    <h1>Site!</h1>
+    <p>Passe o mause por cima! : )</p>
+    <div>
+        Passe o mause aqui
+        <p>TEXTO SECRETO...</p>
+    </div>
+</body>
+</html>

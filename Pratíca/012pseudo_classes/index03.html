@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pseudo-class testes</title>
+    <style>
+        body {
+            background-image: linear-gradient(to left, #FFFFFF, #BFBFBF);
+            font:1.4em Arial, Helvetica, sans-serif;
+            text-align: justify;
+            text-indent: 1em;
+        }
+
+        #title {
+            background-color: rgb(94, 86, 86);
+            color: white;
+            text-align: center;
+        }
+        .alinhamento {
+            text-indent: 0em;
+        }
+        #teste {
+            color: red;
+            text-indent: 0em;
+        }
+
+        div:hover {
+            color: orange;
+        }
+
+        div > p {
+            display: none;
+        }
+        div:hover > p {
+            display: block;
+            background-color: black;
+            font: 2em Arial;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="title">Treinando</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, ex mollitia nam deleniti ipsum doloribus dignissimos consectetur inventore iure alias minima, nemo numquam labore nulla? Dolorem cum ipsum ex odio.</p>
+    <p class="alinhamento">Passe o mause por cima do texto em destaque</p>
+    <div id="teste">
+        passe o mause aqui!
+        <p class="alinhamento">Texto ninja...</p>
+    </div>
+    <p>Fim...</p>
+</body>
+</html>

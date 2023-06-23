@@ -1,0 +1,50 @@
+body {
+    background-image: linear-gradient(to right, #8C1F28, #D92525);
+    font-family: sans-serif;
+    margin: 1px;
+}
+
+header {
+    background-color: #F2F2F2;
+    text-align: center;
+    color: black;
+    padding: 10px;
+    margin: 10px;
+}
+
+nav > a {
+    color: #000000;
+    text-decoration: none;
+}
+
+nav > a:hover {
+    color: #fc0303;
+    text-decoration: underline;
+}
+
+#principal {
+    background-color: #F2F2F2;
+    color: black;
+    padding: 15px;
+    margin: 20px;
+}
+
+.titulo {
+    text-align: center;
+    font-size: 1.3em;
+}
+
+#secundario {
+    background-color: #F2F2F2;
+    color: black;
+    padding: 20px;
+    margin: 25px;
+}
+
+footer > p {
+    font-weight: lighter;
+    background-color: #591C21;
+    color: #F2F2F2;
+    padding: 1px;
+    margin: 10px;
+}

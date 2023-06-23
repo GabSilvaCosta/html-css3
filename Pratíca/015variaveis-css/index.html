@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testando variaveis CSS3</title>
+    <style>
+
+    * {
+        margin: 0px;
+        padding: 0px;
+    }        
+
+        :root {
+            --font01: monospace, sans-serif;
+            --font02: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            --cor01: green;
+            --cor02: blue;
+            --cor03: red;
+            --cor04: white;
+            
+        }
+
+        h1 {
+            font-family: var(--font01);
+            background-color: var(--cor01);
+            color: var(--cor04);
+        }
+
+        p {
+            font-family: var(--font02);
+        }
+    </style>
+</head>
+<body>
+    <h1>Título</h1>
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt doloremque repellat nisi illo maiores sequi aliquam nam aliquid quaerat? Soluta maxime rem consectetur nesciunt voluptatibus odio fugiat enim corrupti aperiam.</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam inventore numquam veniam repellat reprehenderit sit omnis. Commodi officia placeat esse similique nisi perferendis perspiciatis rem laboriosam nobis. Ipsam, reprehenderit voluptates?</p>
+</body>
+</html>

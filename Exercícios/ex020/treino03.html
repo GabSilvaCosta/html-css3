@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Class e Elements</title>
+    <style>
+
+        #principal {
+            font-size: 3em;
+            background-color: black;
+            color: white;
+            text-align: center;
+        }
+
+        #principal:hover {
+            color: red;
+        }
+        
+        div > button {
+            background-color: black;
+            color: white;
+        }
+        div > p::after {
+            content: ' Link ';
+        }
+    </style>
+</head>
+<body>
+    <h1 id="principal">Título</h1>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta voluptas blanditiis architecto illum repellat distinctio assumenda, commodi nobis in quos sapiente id ex eos maiores animi nostrum eligendi, temporibus dolor?</p>
+    <div>
+        <p>Teste</p>
+        <button type="button">Me aperta</button>
+    </div>
+</body>
+</html>
