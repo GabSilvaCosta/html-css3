@@ -2,6 +2,25 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
-:root {
-    --font01
+@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');
+
+:root {  /* Aqui estão localizados todas as cores e fontes que o projeto usará*/
+    --cor0: #F2C166;
+    --cor1: #F29C50;
+    --cor2: #D97E4A;
+    --cor3: #261B14;
+
+    --fonte1: 'Bebas Neue', sans-serif;
+    --fonte2: 'Major Mono Display', monospace;;
 }
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background-color: var(--cor1);
+    text-indent: 20px;
+}
+
