@@ -40,7 +40,7 @@ header h1 {
 
 header nav {
     text-align: right;
-    padding: 10px 10px;
+    padding: 10px;
     border: 20px;  
 }
 
@@ -107,7 +107,6 @@ aside h3 {
 
 aside ul {
     list-style-position: inside;
-    columns: 1;
 }
 
 aside li {
@@ -120,7 +119,7 @@ aside p {
     text-align: justify;
     text-indent: 15px;
     font: normal 1.1em var(--font-padrao);
-    padding: 20px 10px 20px 10px;
+    padding: 40px 10px;
     line-height: 1.3em;
 }
 
