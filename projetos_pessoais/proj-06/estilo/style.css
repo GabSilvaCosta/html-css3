@@ -1,0 +1,29 @@
+@charset "UTF=8";
+
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&display=swap');
+
+:root {
+    --cor01: #262524;
+    --cor02: #595959;
+    --cor03: #BFB7A8;
+
+    --font01: 'Caprasimo', 'cursive';
+    --font02: Arial, Helvetica, sans-serif;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background-image: linear-gradient(to top, var(--cor02), var(--cor01));
+    padding-bottom: 20px;
+}
+
+header h1 {
+    text-align: right;
+    padding: 10px;
+    color: rgb(82, 186, 220);
+}
+
