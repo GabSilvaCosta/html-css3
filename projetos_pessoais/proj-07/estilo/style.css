@@ -1,0 +1,30 @@
+@charset "UTF=8";
+
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    --cor1:#c1923a;
+    --cor2:#cda966;
+    --cor3:#aa6715;
+
+    --font1:'Special Elite', cursive;
+    --font2:'Patrick Hand', cursive;
+}
+
+header {
+    background-color: var(--cor1);
+    padding: 40px;
+}
+
+header h1 {
+    text-align: left;
+    position: absolute;
+    top: -01px;
+}
