@@ -13,18 +13,63 @@
     --cor1:#c1923a;
     --cor2:#cda966;
     --cor3:#aa6715;
-
+        /* Estas são as cores, fontes usados no site. */
     --font1:'Special Elite', cursive;
     --font2:'Patrick Hand', cursive;
 }
 
 header {
     background-color: var(--cor1);
-    padding: 40px;
+    padding: 5px 20px 20px;
 }
 
 header h1 {
-    text-align: left;
-    position: absolute;
-    top: -01px;
+    text-align: center;
+    font: bold 2.0em var(--font1);
+    color: rgb(216, 216, 216);
+    text-shadow: 2px 3px 5px rgba(0, 0, 0, 0.297);
+}
+
+header nav {
+    margin-top: 60px;
+}
+
+nav a {
+    padding: 14px;
+    font: bold 1.1em var(--font1);
+    color: rgb(216, 216, 216);
+    text-decoration: none;
+    text-shadow: 2px 3px 5px rgba(0, 0, 0, 0.297);
+}
+
+nav a:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.194);
+    border-radius: 10px;
+}
+
+header p {
+    display: block;
+    text-align: center;
+    margin-top: 0px;
+    padding: 0px;
+}
+
+#posisionamento {
+    padding-top: 15px;
+    text-align: center;
+    font: bold 1em var(--font2);
+    text-shadow: 2px 3px 5px rgba(0, 0, 0, 0.297);
+}
+
+#posisionamento a {
+    color: rgb(216, 216, 216);
+    text-decoration: none;
+}
+
+#posisionamento a:hover  {
+    color: black;
+    text-decoration: underline;
+    border-radius: 10px;
+    padding: 3px;
 }
