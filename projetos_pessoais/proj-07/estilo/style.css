@@ -98,7 +98,7 @@ section p {
 .imagem p {
     width: 200px;
     height: auto;
-    background-color: rgba(0, 0, 0, 0.575);
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.591) 65%, transparent);
     color: white;
 }
 
