@@ -4,22 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilos/estyle.css">
-    <title>Formulário</title>
+    <title>Mecado-Livre</title>
 </head>
 <body>
     <header>
         <nav>
-            <a href="#"><img src="imagens/mercado-livre-logo-pq.png" alt=""></a>
-            <P><a href="#">Contato</a></P>
+            <a href="#"><img src="imagens/mercado-livre-logo-pq.png" alt="Logo Mercado-livre"></a>
+            <a href="#" id="posicionamento">Contato</a>
         </nav>
     </header>
     <main>
-
-        <div id="insira-email">
+        <form action="cadastro.php" id="caixa-email">
+            <h1>Digite seu e-mail</h1>
+            <p>Certifique-se de que você tenha acesso a ele.</p>
             <label for="ireceba"></label>
             <input type="email" name="receba" id="ireceba">
-        </div>
-
+            <input type="submit" value="Continuar" id="continue">
+        </form>
     </main>
 </body>
 </html>
