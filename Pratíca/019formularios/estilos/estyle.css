@@ -25,7 +25,11 @@ header {
 }
 
 nav {
-    padding: 5px;
+    padding: 10px;
+}
+
+nav a img {
+    height: 37px;
 }
 
 #posicionamento {
@@ -44,7 +48,7 @@ nav {
     width: 450px;
     height: 380px;
     background-color: white;
-    border-radius: 10px;
+    border-radius: 05px;
 }
 
 #caixa-email h1 {
@@ -66,6 +70,12 @@ nav {
     height: 40px;
     width: 280px;
     border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    font-size: 1.3em;
+}
+
+#ireceba:focus {
+    outline: 1px solid blue;
 }
 
 #continue {
@@ -79,4 +89,8 @@ nav {
     border: none;
     background-color: #e5e5e576;
     font-size: 1em;
+}
+
+#continue:active {
+    
 }

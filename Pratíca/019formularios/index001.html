@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilos/estyle.css">
-    <title>Mecado-Livre</title>
+    <title>Mercado-Livre</title>
 </head>
 <body>
     <header>
@@ -14,11 +14,11 @@
         </nav>
     </header>
     <main>
-        <form action="cadastro.php" id="caixa-email">
+        <form action="cadastro.php"  autocomplete="off" method="post" id="caixa-email">
             <h1>Digite seu e-mail</h1>
             <p>Certifique-se de que você tenha acesso a ele.</p>
             <label for="ireceba"></label>
-            <input type="email" name="receba" id="ireceba">
+            <input type="email" name="receba" id="ireceba" required>
             <input type="submit" value="Continuar" id="continue">
         </form>
     </main>
