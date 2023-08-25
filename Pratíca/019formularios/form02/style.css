@@ -1,0 +1,89 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background: lightsalmon url(imagem/nuvens\ e\ avião.jpg) center right no-repeat fixed;
+    background-size: cover;
+}
+
+h1 {
+    text-align: center;
+    font:normal 2em 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 40px 0px;
+}
+
+form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.467);
+    height: 400px;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.3);
+}
+
+#iestado {
+    padding: 15px;
+    font: normal 1.1em 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.centro {
+    text-align: center;
+}
+
+.tcontainer {
+    background-color: transparent;
+    border: 1px solid black;
+    width: 150px;
+    height: 25px;
+    color: black;
+}
+
+#profissao {
+    padding: 15px 0px 15px;
+    font: normal 1.1em 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#iprofi {
+    padding: 5px;
+}
+
+#containertext {
+    padding-top: 10px;
+}
+
+#itext {
+    background-color: yellow;
+    border: 1px solid black;
+    box-shadow: 5px 3px 4px rgba(0, 0, 0, 0.163);
+    font: normal 1em 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 5px;
+}
+
+#ienviar {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    padding: 15px 0px;
+}
+
+.botao {
+    height: 37px;
+    width: 85px;
+    border: 1px solid black;
+    background-color: transparent;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.379);
+}
+
+.botao:hover {
+    height: 47px;
+    width: 95px;
+    transition: .5s;
+    font-size: 1.2em;
+}
