@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background-color: rgba(222, 17, 164, 0.479);
+    padding: 10px;
+}
+
+header h1 {
+    display: none;
+}
+
+nav {
+    padding: 10px;
+}
+
+nav ul {
+    display: flex;
+    flex-flow: row wrap;
+    list-style-type: none;
+}
+
+nav li {
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font: normal 1.2em Arial, sans-serif;
+}
+
+nav a:hover {
+    color: rgb(0, 115, 255);
+}
+
+body {
+    background-color: rgb(53, 210, 108);
+}
+
+main {
+    width: 80%;
+    margin: auto;
+    padding: 15px 5px;
+    border-radius: 0px 0px 5px 5px;
+    box-shadow: 3px 4px 4px rgba(0, 0, 0, 0.32);
+}
+
+main p {
+    padding: 20px 0px; 
+    line-height: 1.5em;
+    font: normal 1.1em 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
