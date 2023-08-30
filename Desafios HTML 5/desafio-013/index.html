@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela de login responsiva (..)</title>
+    <link rel="stylesheet" href="estilos/phone.css" media="(max-width:600px)">
+    <link rel="stylesheet" href="estilos/more-devices.css">
+</head>
+<body>
+    <main>
+        <div id="imagem">
+        </div>
+        <div id="texts">
+            <h1>Login</h1>
+            <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
+        </div>
+
+        <form action="cadastro.php" method="post" autocomplete="on">
+            <div id="entrada-usuario">
+                <label for="iusername"><img src="images/pessoa (1).png" alt="Icone com o formato de uma pessoa"></label>
+                <input type="text" name="username" id="iusername" autocomplete="name" placeholder=" Seu nome" required>
+            </div>
+
+            <div id="entrada-senha">
+                <label for="ipassword"><img src="images/chave (1).png" alt=""></label>
+                <input type="password" name="password" id="ipassword" autocomplete="current-password" placeholder=" Sua senha" required minlength="8">
+            </div>
+
+            <div id="enter-esqueciasenha">
+                <input type="submit" value="Entrar" id="avanca">
+                <input type="button" value="Esqueci a senha " id="esqueci">
+            </div>
+        </form>
+    </main>
+</body>
+</html>
+
