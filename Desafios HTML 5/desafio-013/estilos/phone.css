@@ -1,5 +1,11 @@
 @charset "UTF-8";
-                                        /* Mobile */
+
+@media (max-width: 600px) and (orientation: landscape) {
+    main {
+        background-color: pink;
+    }
+}
+                        /* phone-portrait-retrato */
 * {
     margin: 0px;
     padding: 0px;
