@@ -1,11 +1,6 @@
 @charset "UTF-8";
 
-@media (max-width: 600px) and (orientation: landscape) {
-    main {
-        background-color: pink;
-    }
-}
-                        /* phone-portrait-retrato */
+/* phone-portrait-retrato */
 * {
     margin: 0px;
     padding: 0px;
@@ -48,6 +43,8 @@ main {
 #texts p {
     text-align: justify;
     font: normal 1em 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS';
+    padding: 0px 25px;
+    text-indent: 15px;
 }
 
 form {
@@ -102,4 +99,10 @@ form {
 
 #esqueci:hover {
     background-color: rgb(42, 188, 214);
+}
+
+@media (orientation: landscape) {
+    main { 
+        margin-top: 15px;
+    }
 }
