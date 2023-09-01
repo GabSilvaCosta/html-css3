@@ -14,8 +14,8 @@ main {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 300px;
-    height: 550px;
+    width: 275px;
+    height: 530px;
     background-color: white;
     border-radius: 15px;
     box-shadow: 3px 2px 4px rgba(0, 0, 0, 0.432);
@@ -42,6 +42,8 @@ main {
 #texts p {
     text-align: justify;
     font: normal 1em 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS';
+    padding: 0px 25px;
+    text-indent: 15px;
 }
 
 form {
@@ -64,6 +66,7 @@ form {
 
 #entrada-usuario > input, #entrada-senha > input {
     height: 30px;
+    width: 235px;
     border-radius: 0px 5px 5px 0px;
     margin-bottom: 10px;
 }
@@ -97,4 +100,8 @@ form {
     background-color: rgb(42, 188, 214);
 }
 
-
+@media (orientation: landscape) {
+    main { 
+        margin-top: 15px;
+    }
+}
